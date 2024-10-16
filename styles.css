@@ -13,9 +13,17 @@ a {
     background-color: blue;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 8px;
+    padding: 12px;
     font-weight: bold;
     outline: 2px solid red;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    background-color: red;
 }
 
 img {
@@ -26,6 +34,47 @@ img {
 .MainPageImg {
     width: 200px;
     height: auto;
+    padding-left: 12px;
+}
+
+.mybox1 {
+    display: inline-block;
+    /* display: inline; */
+    /* display: flexbox; */
+    /* padding: 40px; */
+    width: 250px;
+ 
+}
+
+
+.mybox2 {
+    display: inline-block;
+    /* display: inline; */
+    /* display: flexbox; */
+    /* margin-bottom: 20px; */
+    /* padding: 40px; */
+    /* margin-top: 20px; */
+    width: 250px;
+}
+
+.mybox3 {
+    display: inline-block;
+    /* display: inline; */
+    /* display: flexbox; */
+    /* margin-bottom: 20px; */
+    /* padding: 40px; */
+    /* margin-top: 20px; */
+    width: 250px;
+}
+
+.myspacer1 {
+    color: black;
+    font-size: 9px;
+}
+
+.myspacer2 {
+    color: black;
+    font-size: 8px;
 }
 
 /*p {
